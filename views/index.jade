@@ -1,0 +1,43 @@
+extends layout
+
+block content
+  h1= "Indoor Location Services"
+  p Welcome to my Master Project in Indoor location
+
+    // Wrapper
+    #wrapper
+
+            // ADD USER
+            h2 Add Beacon
+            #addBeacon
+                fieldset
+                    input#inputBeaconName(type='text', placeholder='Name')
+                    br
+                    input#inputBeaconUUID(type='text', placeholder='UUID')
+                    br
+                    input#inputBeaconMajor(type='text', placeholder='Major Id')
+                    br
+                    input#inputBeaconMinor(type='text', placeholder='Minor Id')
+                    br
+                    input#inputBeaconLocation(type='text', placeholder='location placed')
+                    br
+                    button#btnAddBeacon Add Beacon
+            // /ADD USER
+
+            br
+
+            // USER LIST
+            h2 Beacon List
+            #userList
+                table
+                    thead
+                        th Name
+                        th UUID
+                        th Major
+                        th Minor
+                        th Location
+                        th Delete?
+                    tbody
+            // /USER LIST
+
+    // /WRAPPER

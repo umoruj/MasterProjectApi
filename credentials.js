@@ -1,0 +1,1 @@
+exports.uri = 'mongodb://umoru80:circle@ds047484.mongolab.com:47484/mobileappdatabase';
