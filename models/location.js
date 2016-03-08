@@ -13,4 +13,4 @@ var locationSchema = new mongoose.Schema({
 
 });
 
-module.exports = restful.model('location', locationSchema);
+module.exports = restful.model('location234', locationSchema);
